@@ -1,0 +1,17 @@
+---
+title: "Exercise 1"
+author: "Andi Li"
+date: "2022/5/4"
+output: html_document
+---
+
+library(tidyverse)
+
+install.packages("tidygraph")
+library(tidygraph)
+
+install.packages("igraph")
+library(igraph)
+
+# 2.Loading data
+csv = read_csv('Connections.csv')
